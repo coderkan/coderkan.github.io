@@ -71,7 +71,7 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://coderkan.github.io/'
+  siteurl: 'http://coderkan.github.io'
   relativeLinks: 'http://coderkan.github.io/links.jsonp'
   media: 'images'
   metadata:
