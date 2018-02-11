@@ -48,8 +48,8 @@ links:
     url: /categories
   - title: About
     url: /about
-    title: Linux
-    url: /linux
+    #title: Linux
+    #url: /linux
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Dhaka
