@@ -7,7 +7,7 @@ imagefeature: fourseasons.jpg
 chart: true
 ---
 <figure>
-  <img src="{{ site.url }}/images/erkanguzeler.jpg" alt="Erkan Güzeler">
+  <img src="{{ site.url }}/images/erkanguzeler.jpg" style="border-radius: 50%;" alt="Erkan Güzeler">
   <figcaption>Erkan Güzeler</figcaption>
 </figure>
 
@@ -36,4 +36,5 @@ My technical expertise and hobbies are generally about technology. Such as Andro
 Here is my [Linkedin](https://www.linkedin.com/in/erkan-güzeler-95b47252) professional profile.
 
 *Beautiful, practical, meaningful stuff.*
+
 ***To Beatiful Days...***
