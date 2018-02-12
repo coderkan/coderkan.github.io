@@ -1,7 +1,7 @@
 title:            Notepad
 description:      "Blogging is fun"
 logo:             logo.png
-disqus_shortname: coderkan
+disqus_shortname: coderkan-github-io-1
 share:            true
 dropcap:			true
 # Change url to your domain. Leave localhost server or blank when working locally.
