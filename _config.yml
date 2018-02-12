@@ -1,7 +1,7 @@
 title:            Notepad
 description:      "Blogging is fun"
 logo:             logo.png
-disqus_shortname: hmfaysal
+disqus_shortname: coderkan
 share:            true
 dropcap:			true
 # Change url to your domain. Leave localhost server or blank when working locally.
@@ -16,21 +16,21 @@ plugins:
 
 # Owner/author information
 owner:
-  name:           Hossain Mohd Faysal
-  avatar:         hmfaysal.jpg
-  email:          hmfaysal@alum.mit.edu
+  name:           Erkan Güzeler
+  avatar:         erkanguzeler.jpg
+  email:          erkanguzeler@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Awesome Dude, Awesome Life
+  description:    To Beatiful Days
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        hmfaysal
-  facebook:       hmfaysal
-  github:         hmfaysal      
-  instagram:      hmfaysal
+  twitter:        ekoerk
+  #facebook:       hmfaysal
+  github:         coderkan      
+  instagram:      erkan.guzeler
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    https://plus.google.com/u/0/102602916593522619858
+  google_plus:    https://plus.google.com/u/1/+ErkanG%C3%BCzeler
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   UA-39365944-7
+google_analytics:   #UA-39365944-7
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
@@ -48,8 +48,8 @@ links:
     url: /categories
   - title: About
     url: /about
-    title: Linux
-    url: /linux
+    #title: Linux
+    #url: /linux
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Dhaka
@@ -70,14 +70,21 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  enable_coderay: false
+  input: GFM
+  syntax_highlighter: rouge 
+#  auto_ids: true
+#  footnote_nr: 1
+#  entity_output: as_char
+#  toc_levels: 1..6
+#  enable_coderay: false
 
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+#  coderay:
+#    coderay_line_numbers: 
+#    coderay_line_numbers_start: 1
+#    coderay_tab_width: 4
+#    coderay_bold_every: 10
+#    coderay_css: class
+
 
 prose:
   rooturl: '_posts'
@@ -160,7 +167,7 @@ prose:
         field:
           element: "checkbox"
           label: "Comments"
-          value: false
+          value: true
 
 
 include: [".htaccess"]
