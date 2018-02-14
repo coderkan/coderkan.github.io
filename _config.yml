@@ -54,10 +54,11 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Dhaka
 future:      true
-highlighter: pygments
+#highlighter: pygments
 markdown:    kramdown
 paginate:    5
 paginate_path: "page:num"
+highlight_theme: light
 
 # Gems
 # gems: [jekyll-paginate]
