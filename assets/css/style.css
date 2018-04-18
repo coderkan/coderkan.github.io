@@ -188,7 +188,7 @@ main, .notepad-share-icons, .notepad-disqus {
     font-weight: 700;
     line-height: 1.3;
     text-transform: none;
-    color: #969696;
+    color: black;
   }
   @media only screen and (min-width: 40.063em) {
     .notepad-site-head .notepad-site-head-content h1 {

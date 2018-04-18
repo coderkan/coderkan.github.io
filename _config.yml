@@ -1,5 +1,5 @@
 title:            Notepad
-description:      "Blogging is fun"
+description:      "To Beautiful Days..."
 logo:             logo.png
 disqus_shortname: coderkan-github-io-1
 share:            true
@@ -20,7 +20,7 @@ owner:
   avatar:         erkanguzeler.jpg
   email:          erkanguzeler@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    To Beatiful Days
+  description:    To Beautiful Days...
   # Social networking links used in footer. Update and remove as you like.
   twitter:        ekoerk
   #facebook:       hmfaysal
