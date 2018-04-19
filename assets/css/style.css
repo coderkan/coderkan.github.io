@@ -91,7 +91,7 @@ main, .notepad-share-icons, .notepad-disqus {
         .notepad-blog-menu ul li.notepad-mobile-close-btn a {
           color: white; }
     .notepad-blog-menu ul.opened {
-      background-color: red;
+      float: none;
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       -moz-transform: translate3d(0, 0, 0);
