@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why you should use Markdown?"
+title: "Write Simple and Effective: Markdown Tips"
 description: 
 headline: 
 modified: 2017-04-19
