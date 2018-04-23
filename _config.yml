@@ -54,11 +54,11 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Dhaka
 future:      true
-#highlighter: pygments
-markdown:    kramdown
+highlighter: rouge #pygments
+#markdown:    kramdown
 paginate:    5
 paginate_path: "page:num"
-highlight_theme: light
+highlight_theme: dark
 
 # Gems
 # gems: [jekyll-paginate]
@@ -66,13 +66,14 @@ highlight_theme: light
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  input: GFM
-  syntax_highlighter: rouge 
+#kramdown:
+#  auto_ids: true
+#  footnote_nr: 1
+#  entity_output: as_char
+#  toc_levels: 1..6
+#  input: GFM
+#  syntax_highlighter: rouge 
+
 #  auto_ids: true
 #  footnote_nr: 1
 #  entity_output: as_char
