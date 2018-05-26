@@ -3,7 +3,7 @@ layout: post
 title: "Multi Language With JQuery"
 description: 
 headline: 
-modified: 2017-12-05
+modified: 2018-01-04
 category: webdevelopment
 tags: [webdevelopment]
 imagefeature: 

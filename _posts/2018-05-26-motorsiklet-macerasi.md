@@ -3,6 +3,7 @@ layout: post
 title: "MOTORSİKLET MACERASI"
 description: "Motorsiklet alırken ki tecrübelerim."
 category: cycle
+modified: 2018-05-26
 tags: [motorcycle, motorsiklet, cycle, adventure]
 imagefeature: moto-splash2.jpg
 share: true
@@ -68,7 +69,7 @@ Motorsiklet seçeneklerim arasında;
 * [Honda CB125R](https://www.honda.com.tr/CB125R)
 * [Yamaha YS125](https://www.yamaha-motor.eu/tr/products/motorcycles/urban-mobility/ys125.aspx)
 * [Honda CB125F](https://www.honda.com.tr/cb125f)
-* [Yamaha YBR125](https://www.yamaha-motor.eu/tr/products/motorcycles/urban-mobility/ybr125.aspx#gallery=image|image=https://cdn.yamaha-motor.eu/product_assets/2014/YBR125/950-75/2014-Yamaha-YBR125-TR-Midnight-Black-Studio-002.jpg) 
+* [Yamaha YBR125](https://www.yamaha-motor.eu/tr/products/motorcycles/urban-mobility/ybr125.aspx) 
 
 vardı. Bunlardan **Honda CB125R** ilk elenen oldu. Sebebi ise fiyatının bütçemi aşmasıydı. Yamaha YBR125 fiyat olarak ucuz olmasına rağmen teknolojik olarak eski olmasından dolayı tercih etmedim. Geriye kalan iki motorsiklet arasında tercihim Honda [CB125F](https://www.honda.com.tr/cb125f) oldu. Çünkü iki motorsikletin teknik özellikleri hemen hemen aynı olmasına rağmen fiyat performans açısından Honda CB125F daha uygundu. 
 

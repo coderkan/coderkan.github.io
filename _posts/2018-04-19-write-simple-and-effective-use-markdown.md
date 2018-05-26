@@ -3,7 +3,7 @@ layout: post
 title: "Write Simple and Effective: Markdown Tips"
 description: 
 headline: 
-modified: 2017-04-19
+modified: 2018-04-19
 category: general
 tags: [general]
 imagefeature: 
