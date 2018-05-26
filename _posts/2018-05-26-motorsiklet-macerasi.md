@@ -90,7 +90,7 @@ alarak ekipman alışverişimi tamamladım. Eksik kalan bir kaç parça ekipman�
 İlk defa motorsiklet alıyorsanız aşağıdaki adımları izleyebilirsiniz.
 
 Öncelikle bayiden motorunuzun satış işlemini gerçekleştiriyorsunuz. Oradan alacağınız evraklar ile gideceğiniz yerler sırasıyla;
-* Sigorta Acentası
+* Sigorta Acentesi
 * Noter
 * Şoförler Odası Birliği
 
