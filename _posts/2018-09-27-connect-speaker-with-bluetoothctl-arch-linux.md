@@ -15,17 +15,17 @@ featured: true
 
 Hi everyone,
 
-In this post I will show you how to connect bluetooth speaker device in BBQLinux with terminal using bluetoothctl. Nowadays there are a lot of devices including bluetooth like speakers, headsets. So if you are Linux user you need to use comman-line interface to done your jobs. Sometimes UI solutions not working properly. 
+In this post I will show you how to connect bluetooth speaker device in BBQLinux with terminal using bluetoothctl. Nowadays there are a lot of devices including bluetooth like speakers, earphones etc. So if you are Linux user you need to use comman-line interface to done your jobs. Sometimes UI solutions not working properly. 
 
 # What is Bluetooth?
 
-Bluetooth is a standard for the short-range wireless interconnection of cellular phones, computers, and other electronic devices. SHortly is a protocol for wireless communication. It was developed in 1990s, to reduce the number of cables. Nowadays all electronic devices has also bluetooth to communicate eachother.
+Bluetooth is a standard for the short-range wireless interconnection of cellular phones, computers, and other electronic devices. Shortly is a protocol for wireless communication. It was developed in 1990s, to reduce the number of cables. Nowadays all electronic devices has also bluetooth to communicate eachother.
 
 # Using Bluetoothctl
 
-If you have electronic devices and connect to them, bluetoothctl is very good option to use in command-line. **Bluetoothctl** is command-line interface in [Bluez]() bluetooth stack. 
+If you have electronic devices and connect to them, **bluetoothctl** is very good choice to use in command-line. **Bluetoothctl** is command-line interface in [Bluez](http://www.bluez.org) bluetooth stack. 
 
-If you dont have this program you simply install like that from terminal.
+If you don't have this program you simply install like that from terminal.
 
 Type:
 
@@ -47,7 +47,7 @@ After that you can also control bluetooth.service status.
 
     systemctl status  bluetooth.service.
 
-Your bluetooth.service if running successfully you will see these in your terminal.
+Your **bluetooth.service** if running successfully you will see these in your terminal.
 
     [coderkan@coderkanpc ~]$ systemctl status bluetooth.service 
     * bluetooth.service - Bluetooth service
@@ -61,13 +61,13 @@ Your bluetooth.service if running successfully you will see these in your termin
             `-5783 /usr/lib/bluetooth/bluetoothd
 
 
-After running your bluetooth.service, we can type **bluetoothctl** in terminal.
+After running your **bluetooth.service**, we can type **bluetoothctl** in terminal.
 
     [coderkan@coderkanpc ~]$ bluetoothctl  
     Agent registered
     [bluetooth]# 
 
-Successfuly entered bluetoothctl your terminal has looks like above. 
+Successfuly entered **bluetoothctl** your terminal has looks like above. 
 
 To scanning device;
 
