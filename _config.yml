@@ -144,6 +144,8 @@ prose:
               value: interesting
             - name: "Web-Development"
               value: webdevelopment
+            - name: "General"
+              value: general
           alterable: true
       - name: "tags"
         field:
