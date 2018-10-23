@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Header Name"
+title: "As a software developer, what are the applications, programs and websites I use often "
 description: 
 headline: 
 modified: 2018-10-20
-category: linux
-tags: [linux,bluetooth,bluetoothctl]
+category: general
+tags: [general, software, applications]
 imagefeature: 
 mathjax: 
 chart: 
