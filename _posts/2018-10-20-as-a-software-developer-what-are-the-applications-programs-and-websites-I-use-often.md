@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "As a software developer, what are the applications, programs and websites I use often "
+title: "As a software developer, what are the applications, programs and websites I use often?"
 description: 
 headline: 
 modified: 2018-10-20
