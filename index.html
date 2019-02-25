@@ -7,8 +7,8 @@ tags: [Erkan, Güzeler, erkanguzeler, electrical, engineering, blog, university,
 ---
 {% if site.paginate %}
 	{% for post in paginator.posts %}
-    <article class="notepad-index-post post row">
-        <div class="small-12 medium-3 large-2 columns datetime">
+    <article class="notepad-index-post post row ">
+        <div class="small-12 medium-3 large-2 columns datetime bg-warning">
             <span class="notepad-post-meta">
                 <time datetime="{{ post.date | date_to_xmlschema }}">
                     <span class="day">
@@ -20,14 +20,14 @@ tags: [Erkan, Güzeler, erkanguzeler, electrical, engineering, blog, university,
                 </time>
             </span>
         </div>
-        <div class="small-12 medium-9 large-10 columns">
-            <header class="notepad-post-header">
+        <div class="small-12 medium-9 large-10 columns bg-success">
+           
                 <h3 class="notepad-post-title">
                     <a href="{{ site.url }}{{ post.url }}">
                         {{ post.title }}
                     </a>
                 </h3>
-            </header>
+           
             <section class="notepad-post-excerpt">
                 <p>{{ post.content | strip_html | truncatewords:40 }}</p>
             </section>
