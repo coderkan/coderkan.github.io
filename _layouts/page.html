@@ -15,56 +15,47 @@ Version: 1.1
 Description: Awesome dude, awesome life
 ====================================================
 -->
-<head>
-{% include head.html %}
-</head>
-<body class="post-template page" itemscope itemtype="http://schema.org/WebPage">
 
-<main id="notepad-page-container" class="notepad-page-container" role="main">
-    
-    
-        <header class="notepad-page-header">
-            <div class="notepad-page-menu-header">
-                
-                    <a class="notepad-blog-logo" href="{{ site.url }}">
-                        <img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo">
-                    </a>
-                
-                
-                
-                <div class="notepad-blog-menu">      
-    <div class="notepad-mobile-menu show-for-small">
-        <a href="#"><i class="fa fa-bars"></i></a>
-    </div>
-    <ul class="notepad-menu">
-        <li class="notepad-mobile-close-btn show-for-small text-right">
-            <a href="#"><i class="fa fa-times"></i></a>
-        </li>
-{% for link in site.links %}
-            <li>{% if link.external %}
-                    <a href="{{ link.url }}">{{ link.title }}</a>
-                {% else %}
-                    <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
-                {% endif %} </li>
-{% endfor %}            
-           <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
-    </ul>
-</div>
-            </div>
+<head>
+    {% include head.html %}
+</head>
+
+<body class="post-template page" itemscope itemtype="http://schema.org/WebPage">
+    <main id="notepad-page-container" class="notepad-page-container" role="main">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand notepad-blog-logo" href="{{ site.url }}"><img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo" width="40%" height="40%"/></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                <div class="collapse navbar-collapse mr-auto" id="navbarText">
+                    <ul class="navbar-nav ml-auto">
+                        {% for link in site.links %}
+                        <li class="nav-item">{% if link.external %}
+                            <a class="nav-link" href="{{ link.url }}">{{ link.title }}</a> {% else %}
+                            <a class="nav-link" href="{{ site.url }}{{ link.url }}">{{ link.title }}</a> {% endif %} </li>
+                        {% endfor %}
+                        <li class="nav-item"><a class="nav-link" href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+                    </ul>
+
+                </div>
+            </nav>
+
             <div class="notepad-page-title row">
                 <div class="small-12 columns">
                     <h1>{{ page.title }}</h1>
                 </div>
             </div>
         </header>
-
-<article class="notepad-page-content">
-                    <div>{{ content }}</div>
-</article>
+        <article class="notepad-page-content">
+            <div>{{ content }}</div>
+        </article>
         <div class="cf"></div>
-    {% include footer.html %}
-</main>
-
-{% include scripts.html %}  
+        {% include footer.html %}
+    </main>
+    {% include scripts.html %}
 </body>
+
 </html>
